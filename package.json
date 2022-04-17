@@ -1,0 +1,32 @@
+{
+  "name": "create_azurite_container",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "start": "node build/main.js",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "ts-node src/main.ts",
+    "dev:watch": "ts-node-dev --respawn ./src/main.ts",
+    "lint": "eslint --ext .js,.ts --ignore-path .gitignore ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.9.0",
+    "dotenv": "^16.0.0",
+    "js-guid": "^1.0.0"
+  }
+}
